@@ -1,5 +1,4 @@
-import subprocess
-from setuptools import setup, find_packages, Extension
+from setuptools import setup
 
 setup(
   name='Cassandra FDW',
@@ -7,7 +6,7 @@ setup(
   license='Postgresql',
   packages=['cassandra_fdw'],
   install_requires=[
-    'cassandra-driver==3.23.0',
-    'http://github.com/Kozea/Multicorn/tarball/master#egg=package-1.0'
+    'cassandra-driver==3.24.0',
   ],
+  dependency_links=['http://github.com/Kozea/Multicorn/tarball/master#egg=package-1.0']
 )

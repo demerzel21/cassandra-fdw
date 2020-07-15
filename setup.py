@@ -7,6 +7,7 @@ setup(
   packages=['cassandra_fdw'],
   install_requires=[
     'cassandra-driver==3.24.0',
+    'pytz'
   ],
   dependency_links=['http://github.com/Kozea/Multicorn/tarball/master#egg=package-1.0']
 )

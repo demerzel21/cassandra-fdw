@@ -1,8 +1,6 @@
 import json
 import operator
 import time
-from builtins import str
-from datetime import time
 from io import StringIO
 
 from cassandra.auth import PlainTextAuthProvider

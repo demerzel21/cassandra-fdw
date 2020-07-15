@@ -1,8 +1,8 @@
 from multicorn import ForeignDataWrapper
-from cassandra_provider import CassandraProvider
-from properties import ISDEBUG
-import properties
-import schema_importer
+from cassandra_fdw.cassandra_provider import CassandraProvider
+from cassandra_fdw.properties import ISDEBUG
+import cassandra_fdw.properties
+import cassandra_fdw.schema_importer
 import time
 
 class CassandraFDW(ForeignDataWrapper):

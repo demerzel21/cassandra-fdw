@@ -49,7 +49,7 @@ CREATE EXTENSION multicorn;
 -- Create server
 CREATE SERVER fdw_server FOREIGN DATA WRAPPER multicorn
 OPTIONS (
-  wrapper 'cassandra-fdw.CassandraFDW',
+  wrapper 'cassandra_fdw.CassandraFDW',
   hosts '10.10.10.1,10.10.10.2',
   port '9042',
   username 'cassandra user', -- optional

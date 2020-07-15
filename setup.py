@@ -8,6 +8,6 @@ setup(
   packages=['cassandra_fdw'],
   install_requires=[
     'cassandra-driver==3.23.0',
-    'git+git://github.com/Kozea/Multicorn.git'
+    'http://github.com/Kozea/Multicorn/tarball/master#egg=package-1.0'
   ],
 )

@@ -27,7 +27,7 @@ sudo pip install pytz
 ```
 #### clone repository
 ```bash
-git clone https://github.com/rankactive/cassandra-fdw.git
+git clone https://github.com/demerzel21/cassandra-fdw.git
 ```
 #### install FDW
 ```bash

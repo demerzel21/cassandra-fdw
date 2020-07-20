@@ -4,6 +4,7 @@ PostgreSQL Foreign Data Wrapper for Cassandra
 * PostgreSQL 9.3+
 * PostgreSQL development packages (postgresql-server-dev-9.x)
 * Cassandra 2.1+, 2.2+, 3+
+* Python 3.5+
 
 ## Features
 * Foreign schema import
